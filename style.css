@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.b{
+    width: 150px;
+    height: 40px;
+    margin-left: 38px;
+    background-color: rgba(0, 0, 0, 0.373);
+}
+a{
+   color: yellow; 
+}
+.sidebar {
+    background-color:rgba(16, 15, 15, 0.964);
+    color: yellow;
+    height: 110vh;
+    width: 400px;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 2px 0;
+}
+.sidebar nav li a:hover{
+    color: yellow;
+    opacity: 90%;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+}
+.photo{
+    margin-left: 39px;
+    border-radius: 70px;
+    margin-top: 40px;
+    border: 6px solid rgb(252, 252, 3);
+}
+
+.main {
+    background-color:rgba(22, 20, 20, 0.969);
+    width: 175vh;
+}
+.main2{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    background-color: rgb(72, 21, 21);
+    border-radius: 4px;
+    
+
+}
+ .main3{
+    text-decoration:  none;
+ }
+
+.container {
+    display: flex;
+}
+h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+/* h1::before{
+    content: attr(My);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: yellow;
+    webkit-text-stoke:0vw rgba(22, 20, 20, 0.969) ;
+    border-right: 3px solid yellow;
+    overflow: hidden;
+    animation: animate 8s linear infinite;
+}
+@keyframes animate {
+    0%{
+        width: 29%;
+        color: yellow;
+    }
+    25%{
+        width: 70%;
+        color: white;
+    }
+    50%{
+        width: 30%;
+        color: yellow;
+    }
+    100%{
+        width: 70%;
+        color: white;
+    }
+} */
+.wrapper{
+    display: inline-flex;
+    color: white;
+}
+
+/* typer cursor */
+.typewriter
+
+/* h3, */
+ {
+    color: #fff;
+    font-family: 'Baloo Bhai 2', 'Shantell Sans', cursive;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    font-size: 25px;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+
+.infocontainer {
+    background-color: rgb(34, 30, 30);
+    opacity: 90%;
+    height: 59vh;
+    width: 155vh;
+    margin: 120px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.outer{
+    margin: 10px;
+    height: 320px;
+    width: 300px;
+    border: 1px solid yellow;
+    background-color: rgb(255, 255, 255);
+}
+.inner{
+   
+    width: 50px;
+    height: 350px;
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    margin-top: -1px;
+    margin-left: 300px;
+}
+
+
+
+/* .devinfo {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.hello {
+    font-size: 40px;
+    color: white;
+}
+
+.name {
+    font-size: 55px;
+    color: yellow;
+}
+
+.about {
+    font-size: 25px;
+    color: white;
+}
+
+.aboutmore {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 23px;
+    color: white;
+    opacity: 50%;
+}
+
+.btn {
+    display: flex;
+    margin-left: auto;
+    color: white;
+    font: bold;
+    font-size: 21px;
+}
+
+.btn1 {
+    width: 160px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 24px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(2, 58, 114);
+}
+
+.btn2:hover {
+    background-color: white;
+    color: rgb(2, 58, 114);
+}
+
+.btn2 {
+    width: 120px;
+    margin-top: 10px;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 24px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: rgb(2, 58, 114);
+}
+
+.devpic img {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: -80px;
+    
+}
+
+/* This is a second container of my front page portfolio */
+.container2{
+    width: 1360px;
+    height: 750px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.second{
+    margin-left: 95px;
+    margin-top: 100px;
+    width: 1150px;
+    height: 550px;
+    background-color: yellow;
+    color: green;
+}
+/* myintro start's from here */
+.myintro{
+    padding-top: 40px;
+    padding-left: 30px;
+    text-align: center;
+}
+.myintro:hover{
+    color: yellow;
+    /* background-color: yellow; */
+}
+.myintro1{
+    height: 40px;
+    width: 180px;
+    border: 2px solid white;
+}
+.myintro2{
+    height: 40px;
+    width: 180px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.myintro3{
+    height: 40px;
+    width: 180px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.myintro4{
+    height: 40px;
+    width: 180px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.myintro5{
+    height: 40px;
+    width: 180px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+/* contactform start from here */
+.contactform {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+}
+.h{
+  color: rgba(255, 255, 0, 0.948);  
+}
+
+
+.contactform form div {
+    margin-top: 25px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: rgba(185, 239, 183, 0.791);
+}
+
+.form-text {
+    padding-top: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+    height: 20px;
+}
+
+.form-check-input {
+    display: flex;
+
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check:hover {
+    color: black;
+    background-color:yellow;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: white;
+    margin: 0 5px;
+    opacity: 70%;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    color: black;
+    font: 400;
+    background-color:yellow;
+}
+/* itemblog's start from here */
+.service{
+    padding-top: 40px;
+    padding-left: 30px;
+    align-items: center;
+}
+.service:hover{
+    color: yellow;
+    /* background-color: yellow; */
+}
+.ser1{
+    height: 40px;
+    width: 180px;
+    border-bottom: 2px solid white;
+}
+.ser1:hover{
+    border-bottom: 16px solid yellow;
+}
+.ser2{
+    height: 40px;
+    width: 180px;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+}
+.ser2:hover{
+    border-bottom: 16px solid yellow;
+}
+.ser3{
+    height: 40px;
+    width: 180px;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+}
+.ser3:hover{
+    border-bottom: 16px solid yellow;
+}
+.ser4{
+    height: 40px;
+    width: 180px;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+}
+.ser4:hover{
+    border-bottom: 16px solid yellow;
+}
+.ser5{
+    height: 40px;
+    width: 180px;
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+}
+.ser5:hover{
+    border-bottom: 16px solid yellow;
+}
+.itemblog {
+    margin: 20px;
+}
+.itemblog h2{
+    color: yellow;
+    opacity: 75%;
+}
+.p{
+    color: white;
+    opacity: 70%;
+}
+
+.blogcontainer h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    color: yellow;
+    background-color: rgb(81, 81, 218);
+}
+
+.blogitem p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn5 {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 26px;
+    margin: 5px;
+    margin-left: 1px;
+    margin-top: 10px;
+
+
+}
+
+.btn5:hover {
+    color: black;
+    font: 400;
+    background-color: yellow;
+}
+
+.intro h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    color: yellow;
+}
+
+.intro p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    color: white;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitems {
+    display: flex;
+    color: yellow;
+}
+
+.skills {
+    margin-left: 80px;
+    width: 300px;
+    height: 25px;
+    background-color: blue;
+}
+
+.hundred {
+    width: 300px;
+    background-color: red;
+    margin-left: 50px;
+}
+
+.eighty {
+    width: 265px;
+    background-color: blue;
+    margin-left: 66px;
+}
+
+.fifty {
+    width: 150px;
+    background-color: chartreuse;
+    margin-left: 78px;
+}
+
+.seventy {
+    width: 230px;
+    background-color: crimson;
+    margin-left: 15px;
+}
+
+.myprojects {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+.arsh{
+    color: yellow;
+    opacity: 80%;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width
+:300px){
+    .container{
+        border: 3px solid black;
+
+    }
+}
